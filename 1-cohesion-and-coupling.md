@@ -145,7 +145,7 @@ def CheckEmailSecurity(email):
 
 > this funtion is highly coupled with the email object. access deep structures in the email object. Changing something in email structure will lead us to change all the function.
 
-## use case
+## Use Case
 
 Problems in code [[coupling-cohesion-before.py](./code/coupling-cohesion-before.py))]
 
@@ -171,12 +171,13 @@ Steps of refactoring:
 * Where is the information that your application uses. How it is sstored and how you can access it.
 * Structure the data in logical way and add the necessary information and methods to tackle
 
+## 5 Tips To Achieve Low Coupling
+TODO
+
 ## Resources
 
 * `1`[ How do you apply the principles of cohesion and coupling to improve your design quality?](https://www.linkedin.com/advice/0/how-do-you-apply-principles-cohesion-coupling)
-
 * `2`[ Cohesion and Coupling: Write BETTER PYTHON CODE Part 1](https://www.youtube.com/watch?v=eiDyK_ofPPM)
-
-* [use case source code](https://github.com/ArjanCodes/betterpython/tree/main/1%20-%20coupling%20and%20cohesion)
-
-* [Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, by Craig Larman]
+* `4` [use case source code](https://github.com/ArjanCodes/betterpython/tree/main/1%20-%20coupling%20and%20cohesion)
+* `5` [5 Tips To Achieve Low Coupling In Your Python Code](https://www.youtube.com/watch?v=qR4-PBLUZNw&ab_channel=ArjanCodes)
+* Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development, by Craig Larman
